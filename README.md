@@ -1,4 +1,4 @@
-# 🔐 Security Advisory: 16 Billion Passwords Breached
+# Security Advisory: 16 Billion Passwords Breached
 
 ## 1. Scope & Incident Overview
 
@@ -22,7 +22,7 @@ On **June 20, 2025**, Cybernews revealed exposure of approximately **16 bill
 | Identity Theft & Phishing  | Elevated likelihood due to scale and diversity of services |
 | Credential Reuse           | Users reusing passwords across services are especially vulnerable |
 
-- **Zero Trust Implication**: The presence of tokens and cookies in leaks implies potential mere one-click bypass of authentication flows (Forbes, 2025).
+- **Zero Trust Implication**: The presence of tokens and cookies in leaks implies a potential one-click bypass of authentication flows (Forbes, 2025).
 
 ---
 
@@ -46,21 +46,21 @@ On **June 20, 2025**, Cybernews revealed exposure of approximately **16 bill
 
 ## 5. SOC‑2 Controls Review (Trust Services Criteria)
 
-### 🔒 Security & Logical Access
+### Security & Logical Access
 - **Control S2**: Enforce MFA for all privileged and user accounts.
 - **Control S3**: Regularly rotate credentials; automate password expiry checks.
 - **Control S4**: Monitor dark‑web data for credential exposure.
 
-### 🚨 Incident Response
+### Incident Response
 - **Control IR1**: Document breach detection methods (e.g., darknet scans).
 - **Control IR2**: Immediate password resets and stakeholder notifications.
 - **Control IR3**: Post-mortem to ban legacy credentials and verify remediation.
 
-### 🛠 Risk Management
+### Risk Management
 - **Control RM1**: Conduct dynamic risk assessments tracking "infostealer" threats.
 - **Control RM2**: Evaluate identity security posture and architecture for passwords vs passkeys.
 
-### 📚 User Awareness & Training
+### User Awareness & Training
 - **Control AT1**: Educate on malware and unsafe link risks, especially in SMS/email.
 - **Control AT2**: Conduct regular phishing simulations and awareness refreshers.
 
@@ -70,7 +70,7 @@ On **June 20, 2025**, Cybernews revealed exposure of approximately **16 bill
 
 - **No single vendor compromised**: Evidence points to aggregated malware‑led theft, not a major platform breach.
 - **Scale unprecedented**: At 16 billion credentials, this leak surpasses historically massive breaches, flagging enormous systemic risk.
-- **Freshness intensifies urgency**: Unlike recycled data, much of this is new and readily usable.
+- **Freshness intensifies urgency**: Much of this is new and readily usable, unlike recycled data.
 
 ---
 
@@ -86,7 +86,7 @@ On **June 20, 2025**, Cybernews revealed exposure of approximately **16 bill
 
 | Timeline       | Activity |
 |----------------|----------|
-| **Within 24 hrs** | Reset all compromised credentials, enable MFA, user communication |
+| **Within 24 hrs** | Reset all compromised credentials, enable MFA, and user communication |
 | **Next 7 days**   | Deploy password manager enforcement, dark‑web monitoring, phishing training |
 | **Next 30 days**  | Assess transition to passkeys; update SOC‑2 evidence and controls |
 | **90+ days**      | Full SOC‑2 Type II audit with attestation to new preventive measures |
